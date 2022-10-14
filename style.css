@@ -1,0 +1,20 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+html, body {
+    height: 100vh;
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+#collected {
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
